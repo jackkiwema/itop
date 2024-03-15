@@ -44,11 +44,11 @@ SetupWebPage::AddModule(
 		//
 		'settings' => array(
 			'options' => array(
-				'host' => 'asterisk-server-address',
+				'host' => '192.168.0.20',
 				'scheme' => 'tcp://',
 				'port' => 5038,
-				'username' => 'itop-user',
-				'secret' => 'itop-user-password',
+				'username' => 'admin',
+				'secret' => 'Maswali123',
 				'connect_timeout' => 10000,
 				'read_timeout' => 100000
 			)
